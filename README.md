@@ -1,6 +1,6 @@
 # CH5710_COURSE_PROJECT
 
-###  :file_folder: Burger's Equation for insteady state case
+###  :file_folder: Burger's Equation for unsteady state case
 
 ```
 Burgers-Equation-PINN/
@@ -42,6 +42,8 @@ Navier-Stokes-DeepXDE/
 ```
 Falkner–Skan-boundary-layer/ 
 │
+├── data/                                # Contains reference data
+│   ├── Falkner_Skan_Ref_Data.npz        # Reference data for the model
 ├── lbfgs.py                             # Python script for L-BFGS method 
 ├── PINN_FS.py                           # Python script for PINN (Physics-Informed Neural Networks) FS 
 ├── postprocessing.py                    # Python script for post-processing results 
