@@ -8,7 +8,7 @@ Burgers-Equation-PINN/
 ├── data/                                # Directory for data handling modules
 │   ├── data_loader.py                   # Loads reference data for the equation
 │   ├── geometry.py                      # Generates collocation and boundary points
-│   ├── visualization.py                 # Functions for visualization of solutions and geometry
+│   └── visualization.py                 # Functions for visualization of solutions and geometry
 │
 ├── model/                               # Directory for model architecture and PDE residual
 │   ├── pinn.py                          # Defines the PINN architecture
@@ -43,7 +43,8 @@ Navier-Stokes-DeepXDE/
 Falkner–Skan-boundary-layer/ 
 │
 ├── data/                                # Contains reference data
-│   ├── Falkner_Skan_Ref_Data.npz        # Reference data for the model
+│   └── Falkner_Skan_Ref_Data.npz        # Reference data for the model
+│
 ├── lbfgs.py                             # Python script for L-BFGS method 
 ├── PINN_FS.py                           # Python script for PINN (Physics-Informed Neural Networks) FS 
 ├── postprocessing.py                    # Python script for post-processing results 
