@@ -53,6 +53,21 @@ Falkner–Skan-boundary-layer/
 └── README.md                            # Project documentation
 ```
 
+###  :file_folder: 2D Navier–Stokes equations for the ZPG turbulent boundary layer
+```
+ZPG-boundary-layer/ 
+│
+├── data/                                # Contains reference data
+│   └── ZPG_Ref_Data.npz                 # Reference data for the model
+│
+├── lbfgs.py                             # Python script for L-BFGS method 
+├── PINN_ZPG.py                          # Python script for PINN ZPG
+├── postprocessing.py                    # Python script for post-processing results 
+├── train.py                             # Python script for model training 
+├── train_configs.py                     # Python script for training configurations 
+└── README.md                            # Project documentation
+```
+
 
 
 
