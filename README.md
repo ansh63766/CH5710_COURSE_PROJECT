@@ -58,7 +58,7 @@ Falkner–Skan-boundary-layer/
 ZPG-boundary-layer/ 
 │
 ├── data/                                # Contains reference data
-│   └── ZPG_Ref_Data.npz                 # Reference data for the model
+│   └── ZPG.mat                          # Reference data for the model
 │
 ├── lbfgs.py                             # Python script for L-BFGS method 
 ├── PINN_ZPG.py                          # Python script for PINN ZPG
